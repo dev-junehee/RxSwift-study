@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		C48060F92C5904FD003FF7EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48060F82C5904FD003FF7EE /* AppDelegate.swift */; };
 		C48060FB2C5904FD003FF7EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48060FA2C5904FD003FF7EE /* SceneDelegate.swift */; };
-		C48060FD2C5904FD003FF7EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48060FC2C5904FD003FF7EE /* ViewController.swift */; };
+		C48060FD2C5904FD003FF7EE /* BasicButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48060FC2C5904FD003FF7EE /* BasicButtonViewController.swift */; };
 		C48061022C5904FE003FF7EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C48061012C5904FE003FF7EE /* Assets.xcassets */; };
 		C48061052C5904FE003FF7EE /* Base in Resources */ = {isa = PBXBuildFile; fileRef = C48061042C5904FE003FF7EE /* Base */; };
 		C480610E2C590562003FF7EE /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = C480610D2C590562003FF7EE /* RxCocoa */; };
@@ -20,7 +20,7 @@
 		C48060F52C5904FD003FF7EE /* RxSwift-study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxSwift-study.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C48060F82C5904FD003FF7EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C48060FA2C5904FD003FF7EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C48060FC2C5904FD003FF7EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C48060FC2C5904FD003FF7EE /* BasicButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicButtonViewController.swift; sourceTree = "<group>"; };
 		C48061012C5904FE003FF7EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C48061042C5904FE003FF7EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C48061062C5904FE003FF7EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 			children = (
 				C48060F82C5904FD003FF7EE /* AppDelegate.swift */,
 				C48060FA2C5904FD003FF7EE /* SceneDelegate.swift */,
-				C48060FC2C5904FD003FF7EE /* ViewController.swift */,
+				C48060FC2C5904FD003FF7EE /* BasicButtonViewController.swift */,
 				C48061012C5904FE003FF7EE /* Assets.xcassets */,
 				C48061032C5904FE003FF7EE /* LaunchScreen.storyboard */,
 				C48061062C5904FE003FF7EE /* Info.plist */,
@@ -145,7 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C48060FD2C5904FD003FF7EE /* ViewController.swift in Sources */,
+				C48060FD2C5904FD003FF7EE /* BasicButtonViewController.swift in Sources */,
 				C48060F92C5904FD003FF7EE /* AppDelegate.swift in Sources */,
 				C48060FB2C5904FD003FF7EE /* SceneDelegate.swift in Sources */,
 			);
