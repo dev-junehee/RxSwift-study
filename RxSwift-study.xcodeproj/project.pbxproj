@@ -19,6 +19,7 @@
 		C48061182C594381003FF7EE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48061172C594381003FF7EE /* TableViewController.swift */; };
 		C480611A2C5945B3003FF7EE /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48061192C5945B3003FF7EE /* SwitchViewController.swift */; };
 		C480611C2C594A56003FF7EE /* TextFieldButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C480611B2C594A56003FF7EE /* TextFieldButtonViewController.swift */; };
+		C48061212C594EAB003FF7EE /* OperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48061202C594EAB003FF7EE /* OperatorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		C48061172C594381003FF7EE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		C48061192C5945B3003FF7EE /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
 		C480611B2C594A56003FF7EE /* TextFieldButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldButtonViewController.swift; sourceTree = "<group>"; };
+		C48061202C594EAB003FF7EE /* OperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				C48061112C593DD7003FF7EE /* RxCocoa */,
+				C480611F2C594E91003FF7EE /* Operator */,
 				C48060F82C5904FD003FF7EE /* AppDelegate.swift */,
 				C48060FA2C5904FD003FF7EE /* SceneDelegate.swift */,
 				C48060FC2C5904FD003FF7EE /* BasicButtonViewController.swift */,
@@ -88,6 +91,14 @@
 				C480611B2C594A56003FF7EE /* TextFieldButtonViewController.swift */,
 			);
 			path = RxCocoa;
+			sourceTree = "<group>";
+		};
+		C480611F2C594E91003FF7EE /* Operator */ = {
+			isa = PBXGroup;
+			children = (
+				C48061202C594EAB003FF7EE /* OperatorViewController.swift */,
+			);
+			path = Operator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +185,7 @@
 				C48060FD2C5904FD003FF7EE /* BasicButtonViewController.swift in Sources */,
 				C48060F92C5904FD003FF7EE /* AppDelegate.swift in Sources */,
 				C48061132C593DE5003FF7EE /* PickerViewController.swift in Sources */,
+				C48061212C594EAB003FF7EE /* OperatorViewController.swift in Sources */,
 				C48061182C594381003FF7EE /* TableViewController.swift in Sources */,
 				C48060FB2C5904FD003FF7EE /* SceneDelegate.swift in Sources */,
 			);

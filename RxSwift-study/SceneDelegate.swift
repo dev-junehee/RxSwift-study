@@ -20,7 +20,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // let vc = PickerViewController()
         // let vc = TableViewController()
         // let vc = SwitchViewController()
-        let vc = TextFieldButtonViewController()
+        // let vc = TextFieldButtonViewController()
+        
+        let vc = OperatorViewController()
         
         window?.rootViewController = vc
         window?.makeKeyAndVisible()
