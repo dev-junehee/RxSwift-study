@@ -25,7 +25,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // let vc = OperatorViewController()
         
         // let vc = NumbersViewController()
-        let vc = ValidationViewController()
+        // let vc = ValidationViewController()
+        let vc = SimpleTableViewController()
         
         window?.rootViewController = vc
         window?.makeKeyAndVisible()
