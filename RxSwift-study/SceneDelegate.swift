@@ -22,7 +22,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // let vc = SwitchViewController()
         // let vc = TextFieldButtonViewController()
         
-        let vc = OperatorViewController()
+        // let vc = OperatorViewController()
+        
+        let vc = NumbersViewController()
         
         window?.rootViewController = vc
         window?.makeKeyAndVisible()

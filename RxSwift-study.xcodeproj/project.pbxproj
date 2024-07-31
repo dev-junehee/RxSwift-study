@@ -20,6 +20,7 @@
 		C480611A2C5945B3003FF7EE /* SwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48061192C5945B3003FF7EE /* SwitchViewController.swift */; };
 		C480611C2C594A56003FF7EE /* TextFieldButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C480611B2C594A56003FF7EE /* TextFieldButtonViewController.swift */; };
 		C48061212C594EAB003FF7EE /* OperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48061202C594EAB003FF7EE /* OperatorViewController.swift */; };
+		C48061282C5A06BB003FF7EE /* NumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48061272C5A06BB003FF7EE /* NumbersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		C48061192C5945B3003FF7EE /* SwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchViewController.swift; sourceTree = "<group>"; };
 		C480611B2C594A56003FF7EE /* TextFieldButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldButtonViewController.swift; sourceTree = "<group>"; };
 		C48061202C594EAB003FF7EE /* OperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorViewController.swift; sourceTree = "<group>"; };
+		C48061272C5A06BB003FF7EE /* NumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 		C48060F72C5904FD003FF7EE /* RxSwift-study */ = {
 			isa = PBXGroup;
 			children = (
+				C48061262C5A06AA003FF7EE /* RxSwiftSample */,
 				C48061112C593DD7003FF7EE /* RxCocoa */,
 				C480611F2C594E91003FF7EE /* Operator */,
 				C48060F82C5904FD003FF7EE /* AppDelegate.swift */,
@@ -99,6 +102,14 @@
 				C48061202C594EAB003FF7EE /* OperatorViewController.swift */,
 			);
 			path = Operator;
+			sourceTree = "<group>";
+		};
+		C48061262C5A06AA003FF7EE /* RxSwiftSample */ = {
+			isa = PBXGroup;
+			children = (
+				C48061272C5A06BB003FF7EE /* NumbersViewController.swift */,
+			);
+			path = RxSwiftSample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +197,7 @@
 				C48060F92C5904FD003FF7EE /* AppDelegate.swift in Sources */,
 				C48061132C593DE5003FF7EE /* PickerViewController.swift in Sources */,
 				C48061212C594EAB003FF7EE /* OperatorViewController.swift in Sources */,
+				C48061282C5A06BB003FF7EE /* NumbersViewController.swift in Sources */,
 				C48061182C594381003FF7EE /* TableViewController.swift in Sources */,
 				C48060FB2C5904FD003FF7EE /* SceneDelegate.swift in Sources */,
 			);
