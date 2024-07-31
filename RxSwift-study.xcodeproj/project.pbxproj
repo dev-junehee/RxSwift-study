@@ -21,6 +21,7 @@
 		C480611C2C594A56003FF7EE /* TextFieldButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C480611B2C594A56003FF7EE /* TextFieldButtonViewController.swift */; };
 		C48061212C594EAB003FF7EE /* OperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48061202C594EAB003FF7EE /* OperatorViewController.swift */; };
 		C48061282C5A06BB003FF7EE /* NumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48061272C5A06BB003FF7EE /* NumbersViewController.swift */; };
+		C480612A2C5A0AFB003FF7EE /* ValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48061292C5A0AFB003FF7EE /* ValidationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		C480611B2C594A56003FF7EE /* TextFieldButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldButtonViewController.swift; sourceTree = "<group>"; };
 		C48061202C594EAB003FF7EE /* OperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorViewController.swift; sourceTree = "<group>"; };
 		C48061272C5A06BB003FF7EE /* NumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersViewController.swift; sourceTree = "<group>"; };
+		C48061292C5A0AFB003FF7EE /* ValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				C48061272C5A06BB003FF7EE /* NumbersViewController.swift */,
+				C48061292C5A0AFB003FF7EE /* ValidationViewController.swift */,
 			);
 			path = RxSwiftSample;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				C48061282C5A06BB003FF7EE /* NumbersViewController.swift in Sources */,
 				C48061182C594381003FF7EE /* TableViewController.swift in Sources */,
 				C48060FB2C5904FD003FF7EE /* SceneDelegate.swift in Sources */,
+				C480612A2C5A0AFB003FF7EE /* ValidationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
